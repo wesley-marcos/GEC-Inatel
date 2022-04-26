@@ -1,0 +1,6 @@
+DDRx = direciona a porta
+
+PINx = leitura de pino (IN)
+
+PORTx = escreve na saída
+	habilita resistor interno (IN)
