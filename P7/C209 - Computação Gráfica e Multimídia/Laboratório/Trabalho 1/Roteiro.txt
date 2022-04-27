@@ -1,0 +1,17 @@
+Balestra:
+
+- Pesquisa;
+- Introdução do tópico = noise removal
+- Introdução da técnica escolhida = filtro de médias
+- Quem criou?, Quando?, e Por quê?
+
+
+Wesley:
+
+- Apresentação do código:
+	- Como funciona?
+	- QUal a teoria por trás.
+- Conclusão:
+	- Quais os pontos fortes e fracos da técnica?
+	- Qual melhoria pode ser feita?
+	- Seria viável implementar com outras técnica?
