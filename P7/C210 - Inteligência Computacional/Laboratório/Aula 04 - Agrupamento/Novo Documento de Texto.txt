@@ -1,0 +1,6 @@
+- Passa a massa inteira de teste/treino de uma vez, diferente da Classificação que mandava pro modelo
+  de ML um dado por vez.
+- Dados discriminantes = dados dispersos (discrepância)
+- cluster_std = distoância do dado solto ao grupo, quanto maior, menos grupos (tipo range)
+- fit = aprendizado do método em si
+- 

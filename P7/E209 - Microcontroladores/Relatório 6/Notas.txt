@@ -1,0 +1,6 @@
+EICRA |= (1 >> ISC01) | (1 << ISC00); //Define quando ocorre a transição de subida
+EICRA |= (1 >> ISC01); //Define quando ocorre a transição de descida
+
+EIMSK |= (1 << INT0); //Habilita o INT
+
+sei(); //Avisar que terá um interrupção

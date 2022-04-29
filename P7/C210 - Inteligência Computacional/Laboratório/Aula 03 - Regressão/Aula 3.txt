@@ -1,0 +1,8 @@
+classificação = método limitado, estático, finito e definido previamente
+
+regressão = dinâmico, infinito e calculável
+
+-1 < correlação < 1
+
+> valor = > correlação
+< valor = < correlação
