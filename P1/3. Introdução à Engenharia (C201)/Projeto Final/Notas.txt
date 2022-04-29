@@ -1,0 +1,12 @@
+Entrega Final 03/06
+
+perguntas sobre compreensão do código, ligações físicas e outros;
+
+extra: entrada digital, uso de sinal de PWM de saída, entrada digital, saída digital;
+
+obrigatório: 	ao menos 1 sensor/módulo (seja do kit ou outro);
+		forma visual de interação com o usuário (Display LCD ou Comunicação Serial);
+		alguma forma de o usuário controlar o projeto, por botões ou serial, nem que seja para permitir o ligar/desligar do projeto;
+
+ 
+
