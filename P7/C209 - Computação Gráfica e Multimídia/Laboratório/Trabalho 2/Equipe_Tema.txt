@@ -1,0 +1,8 @@
+EQUIPE: Lucas de Souza Resende, GES, 0001
+	Pedro Gabriel Garcia Ribeiro Balestra, GEC, 1551
+	Wesley Marcos Borges, GEC, 1651
+
+TEMA: Redução de Ruídos em Imagens
+
+
+
