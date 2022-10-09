@@ -2,6 +2,7 @@ import numpy as np
 import threading
 from threading import Thread
 import time
+import matplotlib.pyplot as plt
 
 # Importando o dataset com as notas dos alunos
 notas = np.loadtxt("data.csv", delimiter=";", dtype=str, encoding="utf-8")
@@ -67,7 +68,7 @@ def thread2():
 # Chamando as threads
 threading.Thread(target=thread1).start()
 threading.Thread(target=thread2).start()
-time.sleep(2.7)
+time.sleep(2.8)
 
 # Gerando os dados para a Análise de Dados
 for i in media:
@@ -102,3 +103,13 @@ print(f'O percentual de aprovação foi de {aprovado:.1f} %')
 print(f'O percentual de reprovação foi de {reprovado:.1f} %')
 print(f'O percentual de recuperação (NP3) foi de {np3:.1f} %')
 print()
+
+# Plotano o gráfico
+plt.pie(
+    x = [aprovado, reprovado, np3], 
+    labels = ['Aprovado', 'Reprovado', 'NP3'], 
+    shadow = True, 
+    explode = [0, 0, 0], autopct = '%1.1f%%')
+
+plt.title('Situção dos Alunos de C012')
+plt.show()
