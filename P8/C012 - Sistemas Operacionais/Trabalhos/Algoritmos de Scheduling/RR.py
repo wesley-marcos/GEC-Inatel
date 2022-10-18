@@ -1,3 +1,4 @@
+# Algoritmo Preemptivo Round Robin (RR)
 
 # Função que calculará o tempo médio de espera do processo
 def tempo_medio(lista_processos, burst, q):
@@ -8,7 +9,7 @@ def tempo_medio(lista_processos, burst, q):
     # Pegando o valor de quantum
     quantum = q
 
-    #
+    # Variável para ajudar no cálculo do tempo médio
     time = 0
 
     # Pegando os processos

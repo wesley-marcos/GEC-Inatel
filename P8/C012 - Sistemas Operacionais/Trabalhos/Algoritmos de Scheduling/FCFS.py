@@ -1,3 +1,4 @@
+# Algoritmo Não Preemptivo First Come First Served (FCFS)
 
 # Função que calculará o tempo médio de espera do processo
 def tempo_medio(lista_processos, burst_time):
