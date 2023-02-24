@@ -1,0 +1,23 @@
+{
+"lista-jogos":
+	{
+	"jogo":
+		[
+		{
+			"id":1,
+			"titulo":"Dark Souls",
+			"ano":2011,
+			"resumo":"A história dos arquivos muito leves",
+			"generos":["Ação","Dark Fantasy","Terror"],
+			"elenco":["Hidetaka Miyazaki","Naotoshi Zin"]
+		},
+		{
+			"id":2,
+			"titulo":"Grand Theft Auto V",
+			"ano":2013,
+			"generos":["Ação","Aventura"],
+			"elenco":["Leslie Benzies", "Imran Sarwar"]
+		}
+		]
+	}
+}

@@ -1,0 +1,15 @@
+---------------- Produto 1 ---------------- 
+MELANCIA
+Magali Melancias
+Fruta
+8.7
+---------------- Produto 2 ---------------- 
+COCA-COLA
+Coca-Cola Fensa
+Refrigerante (Fardo)
+30.0
+---------------- Produto 3 ---------------- 
+LEITE SEMI-DESNATADO
+Cooper Rita
+Leite e Derivados
+45.0

@@ -1,0 +1,30 @@
+---------------- Produto 1 ---------------- 
+Picanha
+Friquesa
+Carnes
+35.5
+---------------- Produto 2 ---------------- 
+Tomate
+Sem Marca
+Frutas
+7.3
+---------------- Produto 3 ---------------- 
+Refri
+Qualquer um
+Refrigerantes
+30.0
+---------------- Produto 1 ---------------- 
+Picanha
+Friquesa
+Carnes
+35.5
+---------------- Produto 2 ---------------- 
+Tomate
+Sem Marca
+Frutas
+7.3
+---------------- Produto 3 ---------------- 
+Refri
+Qualquer um
+Refrigerantes
+30.0

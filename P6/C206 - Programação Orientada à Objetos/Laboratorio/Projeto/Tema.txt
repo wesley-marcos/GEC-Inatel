@@ -1,0 +1,6 @@
+Dupla: Pedro Gabriel Garcia Ribeiro Balestra e Wesley Marcos Borges 
+	(Estamos na mesma turma do labs de POO(C206-L3) e BD(C207-L6).)
+
+Tema: Resident Evil 4 
+	Basearemos-nos nesse clássico jogo para montar um programinha que mostre os conceitos estudados nos 
+	labs de forma intuitiva e temática.
