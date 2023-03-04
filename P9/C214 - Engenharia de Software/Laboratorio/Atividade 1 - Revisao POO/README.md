@@ -1,0 +1,1 @@
+Nessa atividade de revisão de Programação Orientada à Objetos, fomos instruídos a criar uma classe abstrata, uma subclasse e um método. Na 'main', devíamos instanciar essa subclasse e passar valores à ela.
