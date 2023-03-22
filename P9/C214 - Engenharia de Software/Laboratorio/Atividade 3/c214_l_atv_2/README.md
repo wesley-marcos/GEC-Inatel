@@ -6,6 +6,8 @@ Criar um projeto Flutter e subir no Github.
 
 Essa atividade foi realizada para fins didáticos do laboratório de C214.
 
+<br>
+
 <h1 align="center">
-    <img align="center" src="src\assets\tela.jpg" width="300px;" alt="logo"/>
+    <img align="center" src="src\assets\tela.jpg" width="300px;" alt="tela"/>
 </h1>
