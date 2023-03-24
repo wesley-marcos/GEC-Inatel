@@ -25,7 +25,7 @@ public class ProfessorConst {
                     "\"sala\" : \"14\"}";
 
     public static String SAMUEL =
-            "{ \"nomeDoProfessor\" : \"Christopher\", \n" +
+            "{ \"nomeDoProfessor\" : \"Samuel\", \n" +
                     "\"horarioDeAtendimento\" : \"15:30\", \n" +
                     "\"periodo\" : \"Noturno\", \n" +
                     "\"sala\" : \"7\"}";
