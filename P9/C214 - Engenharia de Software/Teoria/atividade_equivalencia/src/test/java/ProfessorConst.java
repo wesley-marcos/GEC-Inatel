@@ -4,7 +4,9 @@ public class ProfessorConst {
             "{ \"nomeDoProfessor\" : \"Christopher\", \n" +
                "\"horarioDeAtendimento\" : \"19:30\", \n" +
                 "\"periodo\" : \"Noturno\", \n" +
-                "\"sala\" : \"18\"}";
+                "\"sala\" : \"18\", \n"
+            //    "\"predio\" : \"4\"}"
+            ;
 
     public static String RENZO =
             "{ \"nomeDoProfessor\" : \"Renzo\", \n" +
@@ -29,4 +31,16 @@ public class ProfessorConst {
                     "\"horarioDeAtendimento\" : \"15:30\", \n" +
                     "\"periodo\" : \"Noturno\", \n" +
                     "\"sala\" : \"7\"}";
+
+    public static String PADRAO =
+            "{ \"nomeDoProfessor\" : \"Inexistente\", \n" +
+                    "\"horarioDeAtendimento\" : \"Inexistente\", \n" +
+                    "\"periodo\" : \"Inexistente\", \n" +
+                    "\"sala\" : \"Inexistente\"}";
+
+    public static String INEXISTENTE =
+            "{ \"nomeDoProfessor\" : \"Inexistente\", \n" +
+                    "\"horarioDeAtendimento\" : \"Inexistente\", \n" +
+                    "\"periodo\" : \"Inexistente\", \n" +
+                    "\"sala\" : \"Inexistente\"}";
 }

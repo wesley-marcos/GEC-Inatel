@@ -42,7 +42,7 @@ public class TesteSearchProfessor {
 
         assertEquals("Marcelo", prof.getNomeDoProfessor());
         assertEquals("19:30", prof.getHorarioDeAtendimento());
-        assertEquals("Noturno", prof.getPeriodo());
+        assertEquals("Integral", prof.getPeriodo());
         assertEquals("18", prof.getSala());
     }
 
@@ -64,8 +64,20 @@ public class TesteSearchProfessor {
 
         assertEquals("Samuel", prof.getNomeDoProfessor());
         assertEquals("15:30", prof.getHorarioDeAtendimento());
-        assertEquals("Integral", prof.getPeriodo());
+        assertEquals("Noturno", prof.getPeriodo());
         assertEquals("7", prof.getSala());
+    }
+
+    @Test
+    public void testeBuscaChris2(){
+
+        Professor prof = bprofessor.searchProfessor("Chris");
+
+        assertEquals("Christopher", prof.getNomeDoProfessor());
+        assertEquals("19:30", prof.getHorarioDeAtendimento());
+        assertEquals("Noturno", prof.getPeriodo());
+        assertEquals("18", prof.getSala());
+        //assertEquals("4", prof.getPredio(prof.getSala()));
     }
 
     @Test
@@ -74,6 +86,14 @@ public class TesteSearchProfessor {
         boolean profValido = bprofessor.verifyProfessorExists("Christopher");
 
         assertTrue(profValido);
+    }
+
+    @Test
+    public void testeBuscaProfInvalido(){
+
+        boolean profInvalido = bprofessor.verifyProfessorExists("Soned");
+
+        assertFalse(profInvalido);
     }
 
 }
