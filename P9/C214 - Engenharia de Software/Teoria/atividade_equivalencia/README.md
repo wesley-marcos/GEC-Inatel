@@ -2,7 +2,7 @@
 
 Atividade referente à lista 1 da matéria **C214** (Engenharia de Software) durante a graduação em Engenharia de Computação pelo [Inatel](https://inatel.br/home/). 
 
-Atividade feita em dupla com Pedro Gabriel Garcia Ribeiro Balestra.
+Atividade feita em dupla com [Pedro Balestra](https://github.com/pedro-balestra).
 
 ## Como utilizar?
 
