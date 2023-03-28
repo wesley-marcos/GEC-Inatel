@@ -6,14 +6,13 @@ public class Professor {
     private String horarioDeAtendimento;
     private String periodo;
     private String sala;
-    //private String predio;
+    private ArrayList<Integer> predios = new ArrayList<Integer>();
 
     public Professor(String nomeDoProfessor, String horarioDeAtendimento, String periodo, String sala) {
         this.nomeDoProfessor = nomeDoProfessor;
         this.horarioDeAtendimento = horarioDeAtendimento;
         this.periodo = periodo;
         this.sala = sala;
-        //this.predio = predio;
     }
 
     public String getNomeDoProfessor() {
@@ -48,31 +47,25 @@ public class Professor {
         this.sala = sala;
     }
 
-    public String getPredio(String sala) {
-
-        int salaInteiros = Integer.parseInt(sala);
-        String predio = "";
-
-        if (salaInteiros >= 1 && salaInteiros <= 5){
-            predio = "1";
+    public ArrayList<Integer> getPredios(int sala) {
+        // Setando os prédios de acordo com a sala do professor
+        if(sala>=1||sala<=5){
+            predios.add(1);
+        }else if(sala>5||sala<=10){
+            predios.add(2);
+        }else if(sala>10||sala<=15){
+            predios.add(3);
+        }else if(sala>15||sala<=20){
+            predios.add(4);
+        }else if(sala>20||sala<=25){
+            predios.add(6);
         }
 
-        else if (salaInteiros >= 6 && salaInteiros <= 10){
-            predio = "2";
-        }
+        // Retornando o array de professores
+        return predios;
+    }
 
-        else if (salaInteiros >= 11 && salaInteiros <= 15){
-            predio = "3";
-        }
-
-        else if (salaInteiros >= 16 && salaInteiros <= 20){
-            predio = "4";
-        }
-
-        else if (salaInteiros >= 21 && salaInteiros <= 25){
-            predio = "6";
-        }
-
-        return predio;
+    public void setPredios(ArrayList<Integer> predios) {
+        this.predios = predios;
     }
 }

@@ -1,12 +1,10 @@
 public class ProfessorConst {
 
     public static String CHRIS =
-            "{ \"nomeDoProfessor\" : \"Christopher\", \n" +
-               "\"horarioDeAtendimento\" : \"19:30\", \n" +
-                "\"periodo\" : \"Noturno\", \n" +
-                "\"sala\" : \"18\", \n"
-            //    "\"predio\" : \"4\"}"
-            ;
+            "{ \"nomeDoProfessor\" : \"Chris\", \n" +
+                    "\"horarioDeAtendimento\" : \"19:30\", \n" +
+                    "\"periodo\" : \"Noturno\", \n" +
+                    "\"sala\" : \"17\"}";
 
     public static String RENZO =
             "{ \"nomeDoProfessor\" : \"Renzo\", \n" +

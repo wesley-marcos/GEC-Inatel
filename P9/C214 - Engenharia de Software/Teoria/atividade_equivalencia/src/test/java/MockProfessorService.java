@@ -1,27 +1,27 @@
 import java.util.ArrayList;
 
 public class MockProfessorService implements ProfessorService{
-
+    private ArrayList<Integer> predios = new ArrayList<Integer>();
     @Override
     public String search(String name) {
-        if (name == "Christopher"){
+        if (name.equalsIgnoreCase("Chris")){
             return ProfessorConst.CHRIS;
         }
 
-        else if (name == "Renzo"){
+        else if (name.equalsIgnoreCase("Renzo")){
             return ProfessorConst.RENZO;
         }
 
-        else if (name == "Marcelo"){
+        else if (name.equalsIgnoreCase("Marcelo")){
             return ProfessorConst.MARCELO;
         }
 
-        else if (name == "Yvo"){
-                return ProfessorConst.YVO;
+        else if (name.equalsIgnoreCase("Yvo")){
+            return ProfessorConst.YVO;
         }
 
-        else if (name == "Samuel") {
-                    return ProfessorConst.SAMUEL;
+        else if (name.equalsIgnoreCase("Samuel")) {
+            return ProfessorConst.SAMUEL;
         }
 
         else{
@@ -33,7 +33,7 @@ public class MockProfessorService implements ProfessorService{
     public boolean professorExists(String name) {
 
         ArrayList<String> lista = new ArrayList<String>();
-        lista.add("Christopher");
+        lista.add("Chris");
         lista.add("Renzo");
         lista.add("Marcelo");
         lista.add("Yvo");
